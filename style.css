@@ -86,13 +86,7 @@ body {
   text-align: left;
 }
 
-/* MUSIC CONTROL */
-.music-control {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  z-index: 2;
-}
+
 
 /* MEDIA QUERIES PER MOBILE */
 @media (max-width: 480px) {
