@@ -25,12 +25,4 @@ for(let i=0; i<numFlowers; i++) {
   flowersContainer.appendChild(flower);
 }
 
-// MUSICA
-const music = document.getElementById('bg-music');
-function toggleMusic() {
-  if (music.paused) {
-    music.play();
-  } else {
-    music.pause();
-  }
-}
+
