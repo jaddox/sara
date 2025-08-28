@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Per Sara</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="flowers"></div>
+  
+  <!-- Pulsante musica -->
+  <div class="music-control">
+    <button class="music-btn" onclick="toggleMusic()">🎵 Musica On/Off</button>
+  </div>
+
+  <div class="card">
+    <h2>Ciao 🌸</h2>
+    <p>Ho preparato qualcosa di carino per te.</p>
+    <button class="reveal" onclick="showStep2()">Vuoi vederlo?</button>
+    
+    <div class="step2">
+      <p>Quello che ho scritto per te è molto personale… 💭</p>
+      <p>Vuoi davvero leggerlo?</p>
+      <button class="proceed" onclick="showLetter()">Sì, fammelo leggere</button>
+    </div>
+
+    <div class="letter-container letter" id="letter">
+
+<p>
+Cara <strong>Sara</strong>,<br><br>
+
+Non mi dimenticherò mai di come ci siamo conosciuti, di quanto mi hai fatto aspettare prima di vederci, e di quel momento in cui finalmente ti ho vista: sono rimasto stupefatto dalla tua bellezza. Ma sebbene inizialmente io sia rimasto colpito dal tuo aspetto, ciò che mi ha davvero conquistato è stata la tua bellezza interiore: la gentilezza, la sensibilità e la luce che trasmetti semplicemente stando vicino.<br><br>
+
+Ricordo con precisione i momenti in cui ci siamo visti, come in un film: le due volte in cui sono andato dal mio amico in Veneto e tu, pur essendo lontana, sei venuta a incontrarmi. L’imbarazzo dei primi istanti era intenso, ma speciale, perché sentivo che tra noi c’era qualcosa di unico. E poi il primo bacio, sulla collina piena di zanzare… un ricordo che, nonostante tutto, rimarrà per sempre indelebile nella mia memoria.<br><br>
+
+Riguardando il nostro tempo insieme, mi rendo conto di quanto fossi confuso. Avevo gli occhi offuscati dai miei problemi, dalle mie insicurezze e dalle mie paure, e per questo ti ho messa in secondo piano. Avevo paura di ammettere i miei sentimenti per timore di essere ferito di nuovo. La mia paura di essere lasciato ha generato un sistema di autodifesa: per questo molte cose non tornavano, perché cercavo di mostrarmi come pensavo fosse più bello ai tuoi occhi. Inoltre, purtroppo ero instabile mentalmente e mi sono lasciato sopraffare dal nuovo lavoro, dalle responsabilità e dalla voglia di fare qualcosa che lasciasse il segno. Ma così facendo, ti ho ferita, e di questo mi dispiace profondamente.<br><br>
+
+So che quello che sto facendo può sembrare egoista, ma voglio essere sincero: non ti ho detto la verità, mi sono nascosto. So che sarai titubante, ma non ho smesso di pensare a te e a cosa mi sono lasciato sfuggire. Questa lettera prima di tutto vuole essere un modo per chiederti scusa e spiegarti i miei errori; tutto ciò che seguirà è secondario rispetto a questo.<br><br>
+
+Tu mi hai aiutato a stare bene, ed io ti ho calpestata. Ora voglio fare io qualcosa per te: supportarti, ascoltarti, prendermi cura di te. Mi manca sapere delle tue giornate, cosa fai, cosa vuoi fare, cosa ti è successo. Voglio essere presente, se tu lo vorrai, senza pretesa, solo con il cuore aperto.<br><br>
+
+Negli ultimi tempi sto lavorando su me stesso: sono tornato in palestra e sto cercando di affrontare le mie paure e le mie insicurezze in modo concreto. Voglio diventare la persona che meriti, e dimostrarti con i fatti che posso crescere e migliorare.<br><br>
+
+Ho intenzione di fare l’uomo e darti ciò che meriti, e fare ammenda per ciò che ho fatto nei tuoi confronti. Non è stato facile per me, ma non oso immaginare quanto lo sia stato per te. Sono disposto a raggiungerti in qualsiasi momento e luogo, per dimostrarti con i fatti il mio impegno e la mia sincerità.<br><br>
+
+Oggi, con la distanza, vedo chiaramente quanto tu sia importante per me. Mi mancano i momenti condivisi, le risate spontanee, la tua voce e il modo in cui sapevi leggermi dentro senza bisogno di parole. Ogni piccolo gesto, ogni ricordo insieme ha un valore enorme per me.<br><br>
+
+Ho capito che amare significa affrontare le proprie paure e prendersi responsabilità. Voglio cambiare, crescere e dimostrarti con i fatti, non solo con le parole, che posso essere la persona che meriti. Voglio impegnarmi con tutto me stesso per costruire qualcosa di vero, sano e duraturo.<br><br>
+
+So che non dipende solo da me, e rispetto qualsiasi tua scelta. Non scrivo per metterti pressione o per convincerti a tornare con me: voglio solo condividere ciò che sento nel profondo del mio cuore. E se non dovessi volere ricominciare, voglio comunque averti nella mia vita. Per me sei troppo importante per perderti del tutto.<br><br>
+
+Grazie per avermi fatto riflettere su me stesso, per avermi mostrato cosa significa amare davvero e per essere stata una parte così preziosa della mia vita. Anche se ho sbagliato, sappi che sei stata, e sei, qualcuno che porterò sempre nel cuore.<br><br>
+
+Una persona come te... bella, genuina, buona, empatica e sensibile, merita molto di più di quello che le ho dato. Se mi darai la possibilità, voglio rimediare.<br><br>
+
+Con affetto sincero,<br>
+<strong>Jadir</strong>
+</p>
+</div>
+  </div>
+
+  <!-- Audio di sottofondo -->
+  <audio id="bg-music" loop>
+    <source src="https://cdn.pixabay.com/download/audio/2023/02/28/audio_bf2f6e5ec1.mp3?filename=romantic-chill-140847.mp3" type="audio/mpeg">
+    Il tuo browser non supporta l'audio.
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
